@@ -2,13 +2,13 @@
   <parent>
     <groupId>org.renci.binning.workflows</groupId>
     <artifactId>diagnostic-uncseq</artifactId>
-    <version>0.0.10-SNAPSHOT</version>
+    <version>0.0.10</version>
   </parent>
   <name>Binning :: Workflow :: Diagnostic UNCSeq :: Executor</name>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.renci.binning.workflows.diagnostic-uncseq</groupId>
   <artifactId>diagnostic-uncseq-executor</artifactId>
-  <version>0.0.10-SNAPSHOT</version>
+  <version>0.0.10</version>
   <packaging>bundle</packaging>
   <dependencies>
     <dependency>
