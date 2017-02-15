@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
-    <groupId>org.renci.binning</groupId>
+    <groupId>org.renci.canvas</groupId>
     <artifactId>binning</artifactId>
-    <version>0.0.35</version>
+    <version>0.0.38</version>
   </parent>
-  <name>Binning :: Workflow :: Diagnostic UNCSeq</name>
+  <name>CANVAS :: Binning :: Diagnostic UNCSeq Workflow</name>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.renci.binning.workflows</groupId>
-  <artifactId>diagnostic-uncseq</artifactId>
-  <version>0.0.14-SNAPSHOT</version>
+  <groupId>org.renci.canvas.binning</groupId>
+  <artifactId>diagnostic-uncseq-workflow</artifactId>
+  <version>0.0.13-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
     <maven.site.plugin.skip>false</maven.site.plugin.skip>    
@@ -33,22 +33,22 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-	<groupId>org.renci.binning.workflows.diagnostic-uncseq</groupId>
-	<artifactId>diagnostic-uncseq-commons</artifactId>
-	<version>0.0.14-SNAPSHOT</version>
+	<groupId>org.renci.canvas.binning.diagnostic-uncseq-workflow</groupId>
+	<artifactId>diagnostic-uncseq-workflow-commons</artifactId>
+	<version>0.0.13-SNAPSHOT</version>
       </dependency>
       <dependency>
-	<groupId>org.renci.binning.workflows.diagnostic-uncseq</groupId>
-	<artifactId>diagnostic-uncseq-executor</artifactId>
-	<version>0.0.14-SNAPSHOT</version>
+	<groupId>org.renci.canvas.binning.diagnostic-uncseq-workflow</groupId>
+	<artifactId>diagnostic-uncseq-workflow-executor</artifactId>
+	<version>0.0.13-SNAPSHOT</version>
       </dependency>      
     </dependencies>
   </dependencyManagement>  
   <modules>
-    <module>diagnostic-uncseq-features</module>
-    <module>diagnostic-uncseq-commands</module>
-    <module>diagnostic-uncseq-executor</module>
-    <module>diagnostic-uncseq-commons</module>
-    <module>diagnostic-uncseq-ws</module>
+    <module>diagnostic-uncseq-workflow-features</module>
+    <module>diagnostic-uncseq-workflow-commands</module>
+    <module>diagnostic-uncseq-workflow-executor</module>
+    <module>diagnostic-uncseq-workflow-commons</module>
+    <module>diagnostic-uncseq-workflow-ws</module>
   </modules>
 </project>
