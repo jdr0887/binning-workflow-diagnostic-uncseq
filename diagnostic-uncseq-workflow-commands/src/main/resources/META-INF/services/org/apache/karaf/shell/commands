@@ -1,0 +1,6 @@
+org.renci.canvas.binning.diagnostic.uncseq.commands.AnnotateVariantsAction
+org.renci.canvas.binning.diagnostic.uncseq.commands.CreateBinningJobAction
+org.renci.canvas.binning.diagnostic.uncseq.commands.GenerateReportAction
+org.renci.canvas.binning.diagnostic.uncseq.commands.LoadVCFAction
+org.renci.canvas.binning.diagnostic.uncseq.commands.UpdateDiagnosticBinsAction
+org.renci.canvas.binning.diagnostic.uncseq.commands.UpdateFrequenciesAction

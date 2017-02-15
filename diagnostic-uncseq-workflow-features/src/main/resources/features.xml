@@ -1,0 +1,15 @@
+<features name="diagnostic-uncseq-workflow-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.2.0">
+
+  <feature name="diagnostic-uncseq-workflow" version="${project.version}" resolver="(obr)">
+    <bundle>mvn:org.renci.canvas.binning.diagnostic-uncseq-workflow/diagnostic-uncseq-workflow-commons/${project.version}</bundle>
+    <bundle>mvn:org.renci.canvas.binning.diagnostic-uncseq-workflow/diagnostic-uncseq-workflow-commands/${project.version}</bundle>    
+    <bundle>mvn:org.renci.canvas.binning.diagnostic-uncseq-workflow/diagnostic-uncseq-workflow-executor/${project.version}</bundle>
+    <bundle>mvn:org.renci.canvas.binning.diagnostic-uncseq-workflow/diagnostic-uncseq-workflow-ws/${project.version}</bundle>
+  </feature>
+
+</features>
+
+
+
+
+
