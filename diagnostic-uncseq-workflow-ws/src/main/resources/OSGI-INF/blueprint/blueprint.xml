@@ -11,7 +11,7 @@
   http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.1.0 http://aries.apache.org/schemas/blueprint-cm/blueprint-cm-1.1.0.xsd
   ">
 
-  <reference id="daoBeanService" interface="org.renci.canvas.dao.BinningDAOBeanService" />
+  <reference id="daoBeanService" interface="org.renci.canvas.dao.CANVASDAOBeanService" />
   <reference id="binningExecutorService" interface="org.renci.canvas.binning.core.BinningExecutorService" />
 
   <bean id="diagnosticUNCSeqImpl" class="org.renci.canvas.binning.diagnostic.uncseq.ws.DiagnosticUNCSeqServiceImpl">
